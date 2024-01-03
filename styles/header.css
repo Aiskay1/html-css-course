@@ -1,0 +1,119 @@
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(247, 251, 255);
+    border-bottom-width: 3;
+    border-bottom-style: solid;
+    border-color: rgb(212, 212, 212);
+    z-index: 100;
+    
+}
+.left-section {
+
+    display: flex;
+    align-items: center;
+}
+.middle-section { flex: 1;
+margin-left: 70px;
+margin-right: 40px;
+max-width: 350px;
+display: flex;
+    align-items: center;
+}
+.search-bar {
+    flex: 1;
+    height: 37px;
+    padding-left: 10px;
+    font-size: large;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 9px rgb(230, 230, 230);
+    
+    
+
+
+
+}
+.search-bar::placeholder {
+    font-family: roboto, arial;
+    font-size: large;
+}
+.right-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.hamboger {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.youlogo {
+    height: 20px;
+}
+.voice-icon {height: 42px; width: 42px;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 5px;
+
+}
+
+.search-icon {
+    height: 40px; width: 66px;
+    color: rgb(238, 238, 238);
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    margin-left: -2px;
+}
+.icon {
+    height: 25px;
+    margin-top: 6px;
+}
+.uplaod-vid {
+    height: 24px;
+}
+.create-you {
+    height: 24px;
+    margin-left: 20px;
+   
+}
+
+.notifi {
+    height: 24px;margin-left: 20px;
+    margin-right: 20px;
+}
+.mychanel-pic {
+    width: 35px;
+    
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.notifi-icon {
+    position: relative;
+}
+.count {
+    position: absolute;
+    font-size: 8px;
+    font-family: roboto, arial;
+    top: 15px;
+    right: 85px;
+    color: aliceblue;
+    background-color: rgb(255, 65, 65);
+
+  
+   border-radius: 10px;
+   padding-left: 5px;   padding-right: 5px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
